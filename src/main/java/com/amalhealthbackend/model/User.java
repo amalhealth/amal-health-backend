@@ -2,8 +2,10 @@ package com.amalhealthbackend.model;
 
 import java.util.regex.Pattern;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 @Data
+@AllArgsConstructor
 public class User {
 private long id;
 private String name;
